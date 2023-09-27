@@ -39,4 +39,22 @@
 ### branch를 따로 만들어 분업하기
 1. `git branch` : 브랜치 생성
 2. `git branch -c <브랜치이름>` (보통 이름은 기능을 따름)
-3. 
+3. `git switch <브랜치이름>`
+    - 원래 master 였던 게 kmj로 변경되어있음
+4. 저장하기
+5. `git add .`
+6. `git commit -m "message"`
+7. `git push origin <브랜치이름>`
+
+---
+### Master branch로 병합하기
+- Pull requests > New pull requests > branch 선택 > Create pull request
+
+---
+### Fork (원격저장소를 자신의 원격저장소로 가져옴)
+- 다른 사람의 깃허브를 가져오기 위해 Clone작업을 해야 함
+- 다른 사람의 깃허브에서 'Fork'를 클릭해서 뜨는 주소를 복사하기
+- camp31 파일에서 우클릭 후 'Open to Gitbash'을 열어서 `git clone 깃배쉬주소`를 입력하면 파일이 생성됨
+
+---
+### 
