@@ -1,12 +1,6 @@
-![제노](/Markdown/assets/D2.jpg)
->화이팅
-
-
----
-
 ### git을 사용해서 작성한 내용물을 저장하는 것
 - `git remote add origin https://githup.com/minju3335`
- - 위 주소를 origin이라고 부르기로 함
+    - 위 주소를 origin이라고 부르기로 함
 - `git push origin master` : 원격저장소에 저장
 - 파일 내용 수정하기
 - Ctrl + s 눌러서 저장하기
@@ -52,9 +46,8 @@
 
 ---
 ### Fork (원격저장소를 자신의 원격저장소로 가져옴)
+- 다른 사람의 github repository를 복제하여 어떤 부분을 수정, 추가, 삭제를 용이하게 해주는 복제 기능
 - 다른 사람의 깃허브를 가져오기 위해 Clone작업을 해야 함
-- 다른 사람의 깃허브에서 'Fork'를 클릭해서 뜨는 주소를 복사하기
-- camp31 파일에서 우클릭 후 'Open to Gitbash'을 열어서 `git clone 깃배쉬주소`를 입력하면 파일이 생성됨
-
----
-### 
+- 다른 사람의 repository에서 'Fork'를 클릭해서 뜨는 주소를 복사하기
+- camp31 파일에서 우클릭 후 'Open to Gitbash'을 열어서 `git clone <복사한url주소>`를 입력하면 파일이 생성됨
+- add, commit, push 3단계를 하고 위의 brach 병합과정을 거치면 된다
