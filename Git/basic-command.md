@@ -7,7 +7,7 @@ git config --global user.email <이메일>
 git config --global user.name <이름>
 ```
 
-## git 저장소 만들기기
+## git 저장소 만들기
 
 - `git init`
     - `.git directory`를 생성해주는 명령어
@@ -34,3 +34,13 @@ config랑 init은 git 만든 후 한 번만 실행하면 됨 !!
     - 일반적으로 `-m` 옵션을 넣어서 추가하여 등록
 밑에 뭐가 없으면 코드를 저장해놓지 않았기 때문 (Ctrl+S)
 
+
+## 원격저장소에 업로드하기
+
+- `remote add`
+    -`gift remote add origin <URL>`
+    - 원격저장소 주소를 origin이라는 이름으로 저장
+
+- `push`
+    - `git push <원격저장소> <브랜치이름>`
+    - 원격저장소에 브랜치를 업로드
